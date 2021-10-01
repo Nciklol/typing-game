@@ -59,8 +59,8 @@ const Home: NextPage<Props> = (quote) => {
             <Head>
                 <title>Typing Game</title>
             </Head>
-            <p className="quote" dangerouslySetInnerHTML={{__html: content}} />
-            <p className="author">By: {quote.author}</p>
+            <span className="quote" dangerouslySetInnerHTML={{__html: content}} />
+            <span className="author"> - {quote.author}</span>
             <p className="stats">{stats}</p>
             {
                 hint ? (<p className="hint">Hint: Type {quote.content[0]}</p>) : ""
