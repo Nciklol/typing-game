@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro:wght@300&display=swap');
+
+body {
+    background-color: #121212;
+}
+
+.quote {
+    color: #ff8c00;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.author {
+    color: gray;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.completed {
+    background-color: #00000000;
+    color: #1abc9c;
+}
+
+.stats {
+    color: #fff44f;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2em;
+    user-select: none;
+    word-wrap: break-word;
+}
+
+.hint {
+    color: gray;
+    font-size: 1em;
+}
+
+.restart {
+    background-color: blueviolet;
+    border-color: #00000000;
+    border-width: 0;
+}
